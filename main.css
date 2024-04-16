@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jersey+20&display=swap");
+html {
+  background-image: url("./wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(106, 214, 120);
+}
+
+body {
+  font-family: "Alfa Slab One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 0 1rem;
+  border-radius: 15px;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.folder-row {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.folder-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  text-align: center;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.folder-container p {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  color: rgb(134, 218, 101);
+}
+
+.folder {
+  width: 5rem;
+}
+.folder:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
